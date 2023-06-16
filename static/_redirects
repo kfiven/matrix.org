@@ -100,9 +100,9 @@
 
 # Dynamic old "latest" spec doc requests to the equivalent page in the new spec docs
 /docs/spec/rooms/* https://spec.matrix.org/latest/rooms/:splat
-/docs/spec/application_service/latest/* https://spec.matrix.org/latest/application-service-api
-/docs/spec/identity_service/latest/* https://spec.matrix.org/latest/identity-service-api
-/docs/spec/push_gateway/latest/* https://spec.matrix.org/latest/push-gateway-api
+/docs/spec/application_service/latest/* https://spec.matrix.org/latest/application-service-api/
+/docs/spec/identity_service/latest/* https://spec.matrix.org/latest/identity-service-api/
+/docs/spec/push_gateway/latest/* https://spec.matrix.org/latest/push-gateway-api/
 
 # Dynamic GIT
 /git/* https://git.matrix.org/:splat
